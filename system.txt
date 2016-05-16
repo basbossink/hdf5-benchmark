@@ -1,0 +1,10 @@
+System:    Host: nikkyo Kernel: 4.5.1-1-ARCH x86_64 (64 bit) Desktop: i3 4.12 Distro: Antergos
+Machine:   System: Hewlett-Packard product: G5130nl
+           Mobo: PEGATRON model: 2A99 v: 6.01 Bios: American Megatrends v: 6.10 date: 07/02/2010
+CPU:       Dual core AMD Athlon II X2 220 (-MCP-) speed: 2800 MHz (max)
+Graphics:  Card: NVIDIA GT218 [GeForce 315]
+           Display Server: X.Org 1.18.3 drivers: nouveau (unloaded: fbdev,vesa) Resolution: 1920x1080@60.00hz
+           GLX Renderer: Gallium 0.4 on llvmpipe (LLVM 3.8, 128 bits) GLX Version: 3.0 Mesa 11.2.2
+Network:   Card: NVIDIA MCP61 Ethernet driver: forcedeth
+Drives:    HDD Total Size: 5001.0GB (1.4% used)
+Info:      Processes: 687 Uptime: 20:31 Memory: 8243.0/10004.5MB Client: Shell (zsh) inxi: 2.3.0

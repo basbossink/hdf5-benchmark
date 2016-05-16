@@ -32,7 +32,6 @@ int main(int argc, char* argv[]) {
   }
   int noDataSets = std::stoi(argv[1]);
   hsize_t dims[1] = { payload.size()};
-
   for(int i =0; i < noDataSets; i++) {
     DataSpace dataSpace(1, dims);
     const H5std_string DATASET_NAME(std::to_string(i));
