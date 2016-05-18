@@ -7,4 +7,4 @@ Graphics:  Card: NVIDIA GT218 [GeForce 315]
            GLX Renderer: Gallium 0.4 on NVA8 GLX Version: 3.0 Mesa 11.2.2
 Network:   Card: NVIDIA MCP61 Ethernet driver: forcedeth
 Drives:    HDD Total Size: 5001.0GB (1.4% used)
-Info:      Processes: 629 Uptime: 5:59 Memory: 8820.1/10004.5MB Client: Shell (sh) inxi: 2.3.0
+Info:      Processes: 657 Uptime: 6:58 Memory: 9027.8/10004.5MB Client: Shell (sh) inxi: 2.3.0
