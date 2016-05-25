@@ -27,12 +27,12 @@ std::string createJsonString(int dataSetIndex) {
 }
 
 int main(int argc, char* argv[]) {
-  const H5std_string FILE_NAME("test.h5");
-  H5File file(FILE_NAME, H5F_ACC_TRUNC);
-  if (argc < 1) {
-    std::cerr << "Usage: " << argv[0] << "<number of datasets>" << std::endl;
+  if (argc < 2) {
+    std::cerr << "Usage: " << argv[0] << "<output-path> <number of datasets>" << std::endl;
   }
-  int noDataSets = std::stoi(argv[1]);
+  const H5std_string FILE_NAME(argv[1]);
+  H5File file(FILE_NAME, H5F_ACC_TRUNC);
+  int noDataSets = std::stoi(argv[2]);
   for(int i =0; i < noDataSets; i++) {
     std::string payload = createJsonString(i);
     hsize_t dims[1] = { payload.size()};
